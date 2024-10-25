@@ -10,6 +10,7 @@ dependencies = ["django"]
 
 [project.optional-dependencies]
 dev = [
+    "django-stubs[compatible-mypy]",
     "ruff",
     "mypy",
     "pip-tools",
